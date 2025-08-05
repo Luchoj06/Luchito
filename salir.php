@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	$_SESSION['usuario']='0';
+	$_SESSION['superadmin']='0';
+	$_SESSION['admin']='0';
+	$_SESSION['nombre']='0';
+	$_SESSION['documento']='0';
+	header("location:../index.php");
+?>
